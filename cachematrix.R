@@ -1,5 +1,5 @@
 ## Two functions are defined: makeCacheMatrix & cacheSolve.
-## Actual implementation will be otherwise, but "cacheSolve(makeCacheMatrix(c(3,6,23)))" is consistent, 
+## Actual implementation will be otherwise, but "cacheSolve(makeCacheMatrix(matrix(1:4,2,2)))" is consistent, 
 ## not triggering error message.
 ## Actual implementation will be a two command sequence:
 ##        mypseudoMatrix<-makeCacheMatrix(myMatrix)
